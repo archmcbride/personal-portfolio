@@ -1,6 +1,12 @@
 /**My personal portfolio CSS**/
+/**Universal CSS; then class/IDs**/
+
 header{
-	color: darkblue;
+	background-color: darkblue;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+
 }
 
 nav{
@@ -9,8 +15,13 @@ nav{
 
 .Experience {
 	width:60%;
+	float:left;
 }
 
 .person-photo {
 	width: 35%;
+	float: left;
+}
+footer{
+	clear:both;
 }
