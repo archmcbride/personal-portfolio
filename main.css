@@ -5,9 +5,10 @@ html {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
           font-family: 'Merriweather Sans', sans-serif;
+          font-size: 16px;
 }
 header{
-	background-color: deepskyblue;
+	background-color: #547F7F;
 	color: white;
 	text-align: center;
 	margin:auto;
@@ -17,34 +18,31 @@ header{
 }
 
 nav{
-	background-color: #f2f2f2;
+	
 }
 
 .main {
-	height: 350px;
-	border: 2px solid black;
+	height: 500px;
+	border: ;
 	position: relative;
-	background-color: #ccffff;
+	background-color: #4ACBCC
 
 }
 
 .Experience {
 	width:60%;
-	height: 350px;
-	background-color: ;
+	height: 500px;
 	position: absolute;
-	border: 4px solid #99ff66;
 
 }
 
 .personal-photo{
 	width: 39%; 
 	margin: auto;
-	display:inline-block;
+	display: inline-block;
 	position: absolute;
 	right:0px;
 	top:0px;
-	border: 4px solid red;
 
 }
 
@@ -53,7 +51,12 @@ nav{
 	position: absolute;
 	right:0px;
 	top:0px;
+	width: 320px;
+	height: 350px;
 }
 footer{
-	width:350px;
+	height:20px;
+}
+ul li{
+	display: inline-block;
 }
