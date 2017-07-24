@@ -1,62 +1,36 @@
 /**My personal portfolio CSS**/
 /**Universal CSS; then class/IDs**/
-html {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-          font-family: 'Merriweather Sans', sans-serif;
-          font-size: 16px;
+body {
+	background-image: url("images/mike-dennler.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+
 }
-header{
-	background-color: #547F7F;
-	color: white;
+h1{
 	text-align: center;
-	margin:auto;
-	height:75px;
-	font-size: 55px;
+	background-color: steelblue;
+	font-size: 40px;
+}
+
+p{
+	font-size: 20px;
 
 }
 
-nav{
-	
+.container-fluid{
+	height: 300px;
 }
 
-.main {
-	height: 500px;
-	border: ;
-	position: relative;
-	background-color: #4ACBCC
-
+.navbar-text > a {
+	color:inherit;
+	text-decoration: none;
 }
 
-.Experience {
-	width:60%;
-	height: 500px;
-	position: absolute;
-
+.minion {
+	max-height: 200px;
 }
 
-.personal-photo{
-	width: 39%; 
-	margin: auto;
-	display: inline-block;
-	position: absolute;
-	right:0px;
-	top:0px;
-
-}
-
-#image{
-	display:inline-block;
-	position: absolute;
-	right:0px;
-	top:0px;
-	width: 320px;
-	height: 350px;
-}
-footer{
-	height:20px;
-}
-ul li{
-	display: inline-block;
+.project {
+	background-color: lightblue;
 }
